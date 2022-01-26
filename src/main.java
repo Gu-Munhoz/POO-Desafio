@@ -15,6 +15,8 @@ public class main {
         curso2.setDescricao("Descrição curso PHP");
         curso2.setCargaHoraria(5);
 
+
+
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Mentoria Java");
         mentoria1.setDescricao("Descrição mentoria java.");
@@ -22,7 +24,7 @@ public class main {
 
         System.out.println(curso1);
         System.out.println(curso2);
-        System.out.println(mentoria1);
+        System.out.println("\n" + mentoria1);
 
     }
 }
